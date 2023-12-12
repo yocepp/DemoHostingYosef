@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  scroll-behavior: smooth;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  position: fixed;
+  background: #02111B;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px 0px;
+/*  background: #FCFCFC;*/
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #5D737E;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu .logo img{
+  width: 255px;
+  border: 10px;
+  border: 5px 5px;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+  margin-bottom: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #5D737E;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #3F4045;
+  color: #FCFCFC;
+}
+.mainContent{
+/*  background-color: pink;*/
+  margin-top: 84px;
+  position: relative;
+  padding-top: 10px;
+  padding-block: 20px;
+}
+.judulPage{
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 25px;
+  text-shadow: 3px 2px 10px gray;
+}
+.gambarStruktur img{
+  position: relative;
+  text-align: center;
+  margin-left: 370px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.judulList{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 35px;
+  text-shadow: 3px 2px 10px gray;
+}
+.pakCucuk{
+  background-color: #5D737E;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border: solid #3F4045;
+  box-shadow: 3px 2px 10px gray;
+  border-style: hidden;
+  margin-top: 1%;
+}
+.judulPakCucuk{
+  position: absolute;
+  margin-left: 24.89%;
+  margin-top: 1%;
+  color: #FCFCFC;
+}
+.identitasPakCucuk{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 4%;
+  color: white;
+}
+.gambarPakCucuk img{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.pakDwi{
+  background-color: #5D737E;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border: solid #3F4045;
+  box-shadow: 3px 2px 10px gray;
+  border-style: hidden;
+}
+.judulPakDwi{
+  position: absolute;
+  margin-left: 54.5%;
+  margin-top: 1%;
+  color: white;
+}
+.identitasPakDwi{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 4%;
+  text-align: right;
+  color: white;
+}
+.gambarPakDwi img{
+  margin-left: 80%;
+  margin-top: 1%;
+}
+.pakToto{
+  background-color: #5D737E;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border: solid #3F4045;
+  box-shadow: 3px 2px 10px gray;
+  border-style: hidden;
+  margin-top: 1%;
+}
+.judulPakToto{
+  position: absolute;
+  margin-left: 24.89%;
+  margin-top: 1%;
+  color: #FCFCFC;
+}
+.identitasPakToto{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 4%;
+  color: #FCFCFC;
+}
+.gambarPakToto img{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.pakYusfia{
+  background-color: #5D737E;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border: solid #3F4045;
+  box-shadow: 3px 2px 10px gray;
+  border-style: hidden;
+}
+.judulPakYusfia{
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 1%;
+  color: #FCFCFC;
+}
+.identitasPakYusfia{
+  position: absolute;
+  margin-left: 51%;
+  margin-top: 4%;
+  text-align: right;
+  color: #FCFCFC;
+}
+.gambarPakYusfia img{
+  margin-left: 80%;
+  margin-top: 1%;
+}
+footer {
+  position: relative;
+  background-color: #02111B;
+  padding: 20px 0 0 0 ;
+  width: 100%;
+  height: 100%;
+  clear: both;
+  margin: 20 0;
+}
+footer .logoUNSFooter{
+  border-right: solid white;
+/*  background-color: hotpink;*/
+  margin-right: 78.5%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer .kalimatFooter{
+  text-align: justify;
+  margin-left: 23%;
+  color: #FCFCFC;
+  position: absolute;
+  border-right-color: red;
+}
